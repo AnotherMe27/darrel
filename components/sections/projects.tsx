@@ -7,7 +7,7 @@ const Projects = ({ projects = projectsData }: { projects?: typeof projectsData 
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {projectsData.map((project) => (
+                    {projects.map((project) => (
                         <div key={project.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
                             <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
                             <div className="p-4">
