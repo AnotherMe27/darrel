@@ -1,0 +1,33 @@
+{
+  "name": "sonia-ganda-website",
+  "version": "1.0.0",
+  "description": "A premium personal brand website for Sonia Ganda.",
+  "main": "app/page.tsx",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "personal",
+    "brand",
+    "website",
+    "portfolio"
+  ],
+  "author": "Sonia Ganda",
+  "license": "MIT"
+}
