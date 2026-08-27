@@ -1,5 +1,7 @@
 import type { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 const sitemap = (): MetadataRoute.Sitemap => {
   const baseUrl = 'https://www.soniaganda.com';
   return [
