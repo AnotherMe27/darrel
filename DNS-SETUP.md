@@ -1,41 +1,28 @@
-cd C:\workspace\website\sonia-ganda-website
-npm install
-npm run build
-npx vercel login
-npx vercel --prod# DNS Setup for www.soniaganda.com
+## DNS Setup for www.soniaganda.com
 
-## 1. Deploy the project
+## 1. Configure DNS
 
-Run these commands in the VS Code terminal:
-
-```powershell
-cd C:\workspace\website\sonia-ganda-website
-npm install
-npm run build
-npx vercel login
-npx vercel --prod
-```
-
-## 2. Add the custom domains
-
-In Vercel, open **Project → Settings → Domains** and add:
-
-- `soniaganda.com`
-- `www.soniaganda.com`
-
-## 3. Configure DNS
-
-At your domain registrar, add the records shown by Vercel. Typically:
+GitHub Pages is already configured for `www.soniaganda.com`. At the domain registrar, remove conflicting A, AAAA, or CNAME records and add:
 
 | Type | Name | Value |
 |---|---|---|
-| A | `@` | `76.76.21.21` |
-| CNAME | `www` | `cname.vercel-dns.com` |
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| CNAME | `www` | `AnotherMe27.github.io` |
 
-Remove conflicting A, AAAA, or CNAME records.
+The repository includes `public/CNAME`, so future GitHub Pages deployments preserve the custom domain.
 
-## 4. HTTPS and redirect
+## 2. Verify the domain
 
-Vercel automatically provisions HTTPS/SSL after DNS verification. Set `www.soniaganda.com` as the preferred domain and redirect the root domain to it.
+After DNS propagates, check:
 
-DNS changes may take up to 48 hours.i
+```powershell
+nslookup www.soniaganda.com
+nslookup soniaganda.com
+```
+
+In the repository, open **Settings → Pages** and wait for **DNS Check** to complete. GitHub will then enable HTTPS. Configure the registrar to redirect the apex domain `soniaganda.com` to `www.soniaganda.com` if your DNS provider offers URL forwarding.
+
+DNS changes may take up to 48 hours.
