@@ -21,4 +21,4 @@ Open `http://localhost:3000` in a browser. Create a production build with `npm r
 
 - GitHub repository: https://github.com/AnotherMe27/darrel
 - GitHub Pages: https://anotherme27.github.io/darrel/
-- Vercel: https://vercel-upload-92apjujxc-delaru.vercel.app
+- Vercel: https://vercel-upload-1-theta.vercel.app
