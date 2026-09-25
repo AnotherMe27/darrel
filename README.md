@@ -23,7 +23,7 @@ The project is ready to deploy to Vercel or GitHub Pages. Add the public reposit
 
 - GitHub repository: https://github.com/AnotherMe27/darrel
 - GitHub Pages: https://anotherme27.github.io/darrel/
-- Vercel: Sign in through the Vercel device authorization page, then deploy this repository.
+- Vercel: https://vercel-upload-92apjujxc-delaru.vercel.app
 <<<<<<< HEAD
 # darrel
 for personal use
