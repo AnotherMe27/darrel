@@ -25,15 +25,13 @@ jobs:
         with:
           node-version: 20
       - name: Install dependencies
-        working-directory: website/sonia-ganda-website
         run: npm install
       - name: Build site
-        working-directory: website/sonia-ganda-website
         run: npm run build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: website/sonia-ganda-website/out
+          path: out
 
   deploy:
     environment:

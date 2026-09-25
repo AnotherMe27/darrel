@@ -21,9 +21,9 @@ Open `http://localhost:3000` in a browser. Create a production build with `npm r
 
 The project is ready to deploy to Vercel or GitHub Pages. Add the public repository URL, GitHub Pages URL, and Vercel URL here after deployment:
 
-- GitHub repository: `ADD_REPOSITORY_URL`
-- GitHub Pages: `ADD_GITHUB_PAGES_URL`
-- Vercel: `ADD_VERCEL_URL`
+- GitHub repository: https://github.com/AnotherMe27/darrel
+- GitHub Pages: https://anotherme27.github.io/darrel/
+- Vercel: Sign in through the Vercel device authorization page, then deploy this repository.
 <<<<<<< HEAD
 # darrel
 for personal use
