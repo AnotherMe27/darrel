@@ -1,3 +1,29 @@
+# Sonia Ganda Portfolio
+
+A responsive personal portfolio for CSN 1101 Assignment One. The home page introduces Sonia, shares her interests and current learning goals, and provides direct contact links.
+
+## Built With
+
+- Next.js and React
+- Semantic JSX sections: `header`, `nav`, `main`, and `footer`
+- External CSS with responsive media queries for phone and desktop layouts
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open `http://localhost:3000` in a browser. Create a production build with `npm run build`.
+
+## Deployment
+
+The project is ready to deploy to Vercel or GitHub Pages. Add the public repository URL, GitHub Pages URL, and Vercel URL here after deployment:
+
+- GitHub repository: `ADD_REPOSITORY_URL`
+- GitHub Pages: `ADD_GITHUB_PAGES_URL`
+- Vercel: `ADD_VERCEL_URL`
 <<<<<<< HEAD
 # darrel
 for personal use

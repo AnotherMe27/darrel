@@ -1,43 +1,14 @@
-import React from 'react';
-import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <nav className="bg-white shadow">
-            <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-                <div className="relative flex items-center justify-between h-16">
-                    <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                        {/* Mobile menu button*/}
-                    </div>
-                    <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                        <div className="flex-shrink-0">
-                            <Link href="/" className="text-xl font-bold text-gray-900">
-                                Sonia Ganda
-                            </Link>
-                        </div>
-                        <div className="hidden sm:block sm:ml-6">
-                            <div className="flex space-x-4">
-                                <Link href="/" className="text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">
-                                    Home
-                                </Link>
-                                <Link href="/about" className="text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">
-                                    About
-                                </Link>
-                                <Link href="/projects" className="text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">
-                                    Projects
-                                </Link>
-                                <Link href="/gallery" className="text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">
-                                    Gallery
-                                </Link>
-                                <Link href="/achievements" className="text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">
-                                    Achievements
-                                </Link>
-                                <Link href="/contact" className="text-gray-900 hover:bg-gray-200 px-3 py-2 rounded-md text-sm font-medium">
-                                    Contact
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
+        <nav className="site-nav" aria-label="Main navigation">
+            <div className="container nav-inner">
+                <a className="brand" href="/">SG<span>.</span></a>
+                <div className="nav-links">
+                    <a href="/">Home</a>
+                    <a href="#about">About</a>
+                    <a href="/projects">Projects</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div>
         </nav>

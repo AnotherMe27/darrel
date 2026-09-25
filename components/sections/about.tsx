@@ -1,35 +1,17 @@
-import React from 'react';
-
 const About = () => {
     return (
-        <section id="about" className="py-20">
-            <div className="container mx-auto px-4">
-                <h2 className="text-4xl font-bold text-center mb-8">About Sonia Ganda</h2>
-                <div className="flex flex-col md:flex-row items-center">
-                    <div className="md:w-1/2 mb-8 md:mb-0">
-                        <img 
-                            src="/path/to/profile-image.jpg" 
-                            alt="Sonia Ganda" 
-                            className="rounded-full w-48 h-48 mx-auto"
-                        />
-                    </div>
-                    <div className="md:w-1/2 md:pl-10">
-                        <p className="text-lg mb-4">
-                            {/* Biography placeholder */}
-                            Sonia Ganda is a passionate professional with a diverse background in...
-                        </p>
-                        <p className="text-lg mb-4">
-                            {/* Background placeholder */}
-                            With a strong foundation in...
-                        </p>
-                        <p className="text-lg mb-4">
-                            {/* Personality and interests placeholder */}
-                            Sonia enjoys...
-                        </p>
-                        <p className="text-lg mb-4">
-                            {/* Goals and vision placeholder */}
-                            Her vision is to...
-                        </p>
+        <section id="about" className="section about-section" aria-labelledby="about-title">
+            <div className="container about-grid">
+                <div>
+                    <p className="eyebrow">A little about me</p>
+                    <h2 id="about-title">Learning by<br /><em>making.</em></h2>
+                </div>
+                <div className="about-copy">
+                    <p className="lead">I&apos;m Sonia, a computing student who enjoys turning ideas into clear and welcoming web pages.</p>
+                    <p>I am developing my skills in HTML, CSS, JavaScript, and responsive design. I care about the small details that make a site feel easy to use, from readable structure to thoughtful visual hierarchy.</p>
+                    <p>Outside class, I enjoy creative problem-solving, exploring new technology, and working on projects that help me grow one practical step at a time.</p>
+                    <div className="interest-list" aria-label="Areas of interest">
+                        <span>Web development</span><span>Creative design</span><span>Continuous learning</span>
                     </div>
                 </div>
             </div>

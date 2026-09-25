@@ -1,15 +1,9 @@
-import React from 'react';
-
 const Footer = () => {
     return (
-        <footer className="bg-gray-800 text-white py-6">
-            <div className="container mx-auto text-center">
-                <p className="mb-4">© {new Date().getFullYear()} Sonia Ganda. All rights reserved.</p>
-                <div className="flex justify-center space-x-4">
-                    <a href="#" className="hover:text-gray-400">Privacy Policy</a>
-                    <a href="#" className="hover:text-gray-400">Terms of Service</a>
-                    <a href="#" className="hover:text-gray-400">Contact</a>
-                </div>
+        <footer className="site-footer">
+            <div className="container footer-inner">
+                <p>© {new Date().getFullYear()} Sonia Ganda</p>
+                <p>Built with curiosity and care.</p>
             </div>
         </footer>
     );
