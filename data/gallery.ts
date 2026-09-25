@@ -1,22 +1,22 @@
 export const galleryData = [
   {
     src: "/images/sonia-ganda.jpg",
-    alt: "Sonia Ganda",
+    alt: "Wallace Ganda",
   },
   {
     src: "/images/sonia-ganda.jpg",
-    alt: "Sonia Ganda",
+    alt: "Wallace Ganda",
   },
   {
     src: "/images/sonia-ganda.jpg",
-    alt: "Sonia Ganda",
+    alt: "Wallace Ganda",
   },
   {
     src: "/images/sonia-ganda.jpg",
-    alt: "Sonia Ganda",
+    alt: "Wallace Ganda",
   },
   {
     src: "/images/sonia-ganda.jpg",
-    alt: "Sonia Ganda",
+    alt: "Wallace Ganda",
   },
 ];

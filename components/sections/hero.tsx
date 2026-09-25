@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
             <div className="container hero-grid">
                 <div className="hero-copy">
                     <p className="eyebrow">Personal portfolio / 2026</p>
-                    <h1 id="hero-title">Sonia <em>Ganda</em></h1>
+                    <h1 id="hero-title">Wallace <em>Ganda</em></h1>
                     <p className="hero-tagline">Aspiring web developer building thoughtful, useful digital experiences.</p>
                     <div className="hero-actions">
                         <a className="button button-primary" href="#about">Discover my story <span aria-hidden="true">↓</span></a>
@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
                 </div>
                 <div className="hero-portrait">
                     <div className="portrait-frame">
-                        <img src="/images/pro2.jpeg" alt="Sonia Ganda smiling outdoors" />
+                        <img src="/images/pro2.jpeg" alt="Wallace Ganda smiling outdoors" />
                     </div>
                     <p className="portrait-note">Curious mind<br />constant learner</p>
                 </div>

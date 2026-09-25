@@ -8,7 +8,7 @@ const Contact = () => {
                     <p className="contact-intro">I&apos;m always open to learning from new people and hearing about interesting ideas.</p>
                 </div>
                 <div className="contact-details">
-                    <a className="email-link" href="mailto:sonia.ganda@example.com">sonia.ganda@example.com <span aria-hidden="true">↗</span></a>
+                    <a className="email-link" href="mailto:wallace.ganda@example.com">wallace.ganda@example.com <span aria-hidden="true">↗</span></a>
                     <div className="social-links">
                         <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
                         <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>

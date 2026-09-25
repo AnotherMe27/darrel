@@ -1,6 +1,6 @@
 export const profile = {
-  name: "Sonia Ganda",
-  biography: "Your biography goes here. A brief introduction about Sonia, her background, and her journey.",
+  name: "Wallace Ganda",
+  biography: "A computing student building thoughtful, useful digital experiences.",
   interests: [
     "Interest 1",
     "Interest 2",
